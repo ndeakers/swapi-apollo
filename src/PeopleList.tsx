@@ -27,7 +27,7 @@ function PeopleList({ data }: Data) {
                 {person.name}: {person.eyeColor}
             </p>
         </div>))
-        : "Loading";
+        : "Choose a color";
 
     return <>{list}</>
 }

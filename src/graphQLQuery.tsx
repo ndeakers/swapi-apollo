@@ -11,4 +11,14 @@ query {
     }
   }`;
 
-  export { SW_Q };
+  const SW_Planets = gql`
+  query {
+    allPlanets{
+      planets {
+        name
+        terrains
+      }
+    }
+  }`;
+
+  export { SW_Q, SW_Planets };
